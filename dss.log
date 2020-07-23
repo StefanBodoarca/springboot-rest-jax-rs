@@ -1,0 +1,86 @@
+2020-07-23 22:41:00.985 [main] INFO  apache.rs_service.SampleRestApplication - Starting SampleRestApplication on stefan-pc with PID 20027 (/home/stefan/eclipse-workspace/1234.wdw/target/classes started by stefan in /home/stefan/eclipse-workspace/1234.wdw)
+2020-07-23 22:41:00.996 [main] INFO  apache.rs_service.SampleRestApplication - No active profile set, falling back to default profiles: default
+2020-07-23 22:41:01.560 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.4.2.Final
+2020-07-23 22:41:03.309 [main] INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9999 (http)
+2020-07-23 22:41:03.336 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2020-07-23 22:41:03.338 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.0.36
+2020-07-23 22:41:03.495 [localhost-startStop-1] INFO  org.apache.catalina.loader.WebappLoader - Unknown loader jdk.internal.loader.ClassLoaders$AppClassLoader@5ffd2b27 class jdk.internal.loader.ClassLoaders$AppClassLoader
+2020-07-23 22:41:03.550 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-23 22:41:03.550 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2469 ms
+2020-07-23 22:41:03.852 [localhost-startStop-1] INFO  com.zaxxer.hikari.HikariDataSource - DSS-Hikari-Pool - Starting...
+2020-07-23 22:41:03.858 [localhost-startStop-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=org.hsqldb.jdbcDriver was not found, trying direct instantiation.
+2020-07-23 22:41:04.199 [localhost-startStop-1] INFO  com.zaxxer.hikari.pool.PoolBase - DSS-Hikari-Pool - Driver does not support get/set network timeout for connections. (feature not supported)
+2020-07-23 22:41:04.202 [localhost-startStop-1] INFO  com.zaxxer.hikari.HikariDataSource - DSS-Hikari-Pool - Start completed.
+2020-07-23 22:41:04.215 [localhost-startStop-1] INFO  eu.europa.esig.dss.spi.x509.revocation.JdbcRevocationSource - Table was created.
+2020-07-23 22:41:04.476 [localhost-startStop-1] INFO  eu.europa.esig.dss.spi.x509.revocation.JdbcRevocationSource - Table was created.
+2020-07-23 22:41:04.485 [localhost-startStop-1] INFO  eu.europa.esig.dss.validation.CommonCertificateVerifier - + New CommonCertificateVerifier created.
+2020-07-23 22:41:04.791 [localhost-startStop-1] INFO  org.springframework.boot.context.embedded.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2020-07-23 22:41:04.793 [localhost-startStop-1] INFO  org.springframework.boot.context.embedded.ServletRegistrationBean - Mapping servlet: 'CXFServlet' to [/services/*]
+2020-07-23 22:41:04.800 [localhost-startStop-1] INFO  org.springframework.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-23 22:41:04.800 [localhost-startStop-1] INFO  org.springframework.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-23 22:41:04.801 [localhost-startStop-1] INFO  org.springframework.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-23 22:41:04.801 [localhost-startStop-1] INFO  org.springframework.boot.context.embedded.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-23 22:41:05.072 [main] INFO  eu.europa.esig.dss.tsl.job.TLValidationJob - Online refresh is running...
+2020-07-23 22:41:05.077 [main] INFO  eu.europa.esig.dss.tsl.job.TLValidationJob - Running analysis for 1 LOTLSource(s)
+2020-07-23 22:41:07.535 [pool-2-thread-1] INFO  eu.europa.esig.dss.validation.CommonCertificateVerifier - + New CommonCertificateVerifier created.
+2020-07-23 22:41:07.688 [pool-2-thread-1] INFO  eu.europa.esig.dss.validation.SignedDocumentValidator - Document validation...
+2020-07-23 22:41:07.752 [pool-2-thread-1] INFO  eu.europa.esig.dss.validation.CommonCertificateVerifier - + New CommonCertificateVerifier created.
+2020-07-23 22:41:07.968 [pool-2-thread-1] INFO  eu.europa.esig.dss.xades.validation.XAdESCertificateSource - +XAdESCertificateSource
+2020-07-23 22:41:08.014 [pool-2-thread-1] INFO  eu.europa.esig.dss.xades.validation.XAdESSignature - Determining signing certificate from certificate candidates list succeeded : C-D2064FDD70F6982DCC516B86D9D5C56AEA939417C624B2E478C0B29DE54F8474
+2020-07-23 22:41:08.220 [main] INFO  eu.europa.esig.dss.tsl.job.TLValidationJob - Analysis is DONE for 1 LOTLSource(s)
+2020-07-23 22:41:08.246 [main] INFO  eu.europa.esig.dss.tsl.job.TLValidationJob - Running analysis for 31 TLSource(s)
+2020-07-23 22:41:09.042 [pool-2-thread-15] INFO  eu.europa.esig.dss.validation.CommonCertificateVerifier - + New CommonCertificateVerifier created.
+2020-07-23 22:41:09.281 [pool-2-thread-15] INFO  eu.europa.esig.dss.validation.SignedDocumentValidator - Document validation...
+2020-07-23 22:41:09.283 [pool-2-thread-15] INFO  eu.europa.esig.dss.validation.CommonCertificateVerifier - + New CommonCertificateVerifier created.
+2020-07-23 22:41:09.314 [pool-2-thread-28] INFO  eu.europa.esig.dss.validation.CommonCertificateVerifier - + New CommonCertificateVerifier created.
+2020-07-23 22:41:09.407 [pool-2-thread-28] INFO  eu.europa.esig.dss.validation.SignedDocumentValidator - Document validation...
+2020-07-23 22:41:09.474 [pool-2-thread-28] INFO  eu.europa.esig.dss.validation.CommonCertificateVerifier - + New CommonCertificateVerifier created.
+2020-07-23 22:41:09.582 [pool-2-thread-4] INFO  eu.europa.esig.dss.validation.CommonCertificateVerifier - + New CommonCertificateVerifier created.
+2020-07-23 22:41:09.593 [pool-2-thread-22] INFO  eu.europa.esig.dss.validation.CommonCertificateVerifier - + New CommonCertificateVerifier created.
+2020-07-23 22:41:09.596 [pool-2-thread-13] INFO  eu.europa.esig.dss.validation.CommonCertificateVerifier - + New CommonCertificateVerifier created.
+2020-07-23 22:41:09.599 [pool-2-thread-16] INFO  eu.europa.esig.dss.validation.CommonCertificateVerifier - + New CommonCertificateVerifier created.
+2020-07-23 22:41:09.638 [pool-2-thread-20] INFO  eu.europa.esig.dss.validation.CommonCertificateVerifier - + New CommonCertificateVerifier created.
+2020-07-23 22:41:09.651 [pool-2-thread-31] INFO  eu.europa.esig.dss.validation.CommonCertificateVerifier - + New CommonCertificateVerifier created.
+2020-07-23 22:41:09.845 [pool-2-thread-16] INFO  eu.europa.esig.dss.validation.SignedDocumentValidator - Document validation...
+2020-07-23 22:41:09.863 [pool-2-thread-16] INFO  eu.europa.esig.dss.validation.CommonCertificateVerifier - + New CommonCertificateVerifier created.
+2020-07-23 22:41:09.860 [pool-2-thread-13] INFO  eu.europa.esig.dss.validation.SignedDocumentValidator - Document validation...
+2020-07-23 22:41:09.856 [pool-2-thread-20] INFO  eu.europa.esig.dss.validation.SignedDocumentValidator - Document validation...
+2020-07-23 22:41:09.853 [pool-2-thread-4] INFO  eu.europa.esig.dss.validation.SignedDocumentValidator - Document validation...
+2020-07-23 22:41:09.870 [pool-2-thread-4] INFO  eu.europa.esig.dss.validation.CommonCertificateVerifier - + New CommonCertificateVerifier created.
+2020-07-23 22:41:09.865 [pool-2-thread-31] INFO  eu.europa.esig.dss.validation.SignedDocumentValidator - Document validation...
+2020-07-23 22:41:09.864 [pool-2-thread-22] INFO  eu.europa.esig.dss.validation.SignedDocumentValidator - Document validation...
+2020-07-23 22:41:09.880 [pool-2-thread-22] INFO  eu.europa.esig.dss.validation.CommonCertificateVerifier - + New CommonCertificateVerifier created.
+2020-07-23 22:41:09.889 [pool-2-thread-20] INFO  eu.europa.esig.dss.validation.CommonCertificateVerifier - + New CommonCertificateVerifier created.
+2020-07-23 22:41:09.898 [pool-2-thread-31] INFO  eu.europa.esig.dss.validation.CommonCertificateVerifier - + New CommonCertificateVerifier created.
+2020-07-23 22:41:09.910 [pool-2-thread-13] INFO  eu.europa.esig.dss.validation.CommonCertificateVerifier - + New CommonCertificateVerifier created.
+2020-07-23 22:41:09.943 [pool-2-thread-7] INFO  eu.europa.esig.dss.validation.CommonCertificateVerifier - + New CommonCertificateVerifier created.
+2020-07-23 22:41:09.989 [pool-2-thread-7] INFO  eu.europa.esig.dss.validation.SignedDocumentValidator - Document validation...
+2020-07-23 22:41:10.058 [pool-2-thread-15] INFO  eu.europa.esig.dss.xades.validation.XAdESCertificateSource - +XAdESCertificateSource
+2020-07-23 22:41:10.084 [pool-2-thread-15] INFO  eu.europa.esig.dss.xades.validation.XAdESSignature - Determining signing certificate from certificate candidates list succeeded : C-E18255ABB9AAED1CECEA281A5175584B9584153BB8B62B96B8C4E1A10BAD5E48
+2020-07-23 22:41:10.109 [pool-2-thread-7] INFO  eu.europa.esig.dss.validation.CommonCertificateVerifier - + New CommonCertificateVerifier created.
+2020-07-23 22:41:10.205 [pool-2-thread-18] INFO  eu.europa.esig.dss.validation.CommonCertificateVerifier - + New CommonCertificateVerifier created.
+2020-07-23 22:41:10.235 [pool-2-thread-4] INFO  eu.europa.esig.dss.xades.validation.XAdESCertificateSource - +XAdESCertificateSource
+2020-07-23 22:41:10.210 [pool-2-thread-16] INFO  eu.europa.esig.dss.xades.validation.XAdESCertificateSource - +XAdESCertificateSource
+2020-07-23 22:41:10.259 [pool-2-thread-18] INFO  eu.europa.esig.dss.validation.SignedDocumentValidator - Document validation...
+2020-07-23 22:41:10.392 [pool-2-thread-18] INFO  eu.europa.esig.dss.validation.CommonCertificateVerifier - + New CommonCertificateVerifier created.
+2020-07-23 22:41:10.398 [pool-2-thread-4] INFO  eu.europa.esig.dss.xades.validation.XAdESSignature - Determining signing certificate from certificate candidates list succeeded : C-EFA7AF7168E23CA5BFA260B357C114D3B2D683F703F02BAC3F5A44176C4D0817
+2020-07-23 22:41:10.418 [pool-2-thread-16] INFO  eu.europa.esig.dss.xades.validation.XAdESSignature - Determining signing certificate from certificate candidates list succeeded : C-D8884D7E327B56BC312A8B4F0AA9C977F72680B3144F2767065115EAD6C7E38E
+2020-07-23 22:41:10.418 [pool-2-thread-28] INFO  eu.europa.esig.dss.xades.validation.XAdESCertificateSource - +XAdESCertificateSource
+2020-07-23 22:41:10.523 [pool-2-thread-7] INFO  eu.europa.esig.dss.xades.validation.XAdESCertificateSource - +XAdESCertificateSource
+2020-07-23 22:41:10.581 [pool-2-thread-22] INFO  eu.europa.esig.dss.xades.validation.XAdESCertificateSource - +XAdESCertificateSource
+2020-07-23 22:41:10.682 [pool-2-thread-28] INFO  eu.europa.esig.dss.xades.validation.XAdESSignature - Determining signing certificate from certificate candidates list succeeded : C-E0506512C7A4591B60BAC65ED5769ED3BA6A2A85353BD1712C4848C34FC6DB0F
+2020-07-23 22:41:10.684 [pool-2-thread-7] INFO  eu.europa.esig.dss.xades.validation.XAdESSignature - Determining signing certificate from certificate candidates list succeeded : C-87FE48E2D99DE1997DDF25751F1EB8ABC0C307FD5C7FA4AD9A00FD3976ACC5C1
+2020-07-23 22:41:10.786 [pool-2-thread-20] INFO  eu.europa.esig.dss.xades.validation.XAdESCertificateSource - +XAdESCertificateSource
+2020-07-23 22:41:10.796 [pool-2-thread-22] INFO  eu.europa.esig.dss.xades.validation.XAdESSignature - Determining signing certificate from certificate candidates list succeeded : C-12E25C85B853C4C5F84BFB8E18A4B70F21DC2DEB81A07D9D2D80FEBE82439F67
+2020-07-23 22:41:10.962 [pool-2-thread-13] INFO  eu.europa.esig.dss.xades.validation.XAdESCertificateSource - +XAdESCertificateSource
+2020-07-23 22:41:11.017 [pool-2-thread-11] INFO  eu.europa.esig.dss.validation.CommonCertificateVerifier - + New CommonCertificateVerifier created.
+2020-07-23 22:41:11.138 [pool-2-thread-20] INFO  eu.europa.esig.dss.xades.validation.XAdESSignature - Determining signing certificate from certificate candidates list succeeded : C-CF147941C71376E4ACE39E370256740B1D8A179131D38FAE605CC44020B413E9
+2020-07-23 22:41:11.144 [pool-2-thread-31] INFO  eu.europa.esig.dss.xades.validation.XAdESCertificateSource - +XAdESCertificateSource
+2020-07-23 22:41:11.167 [pool-2-thread-13] INFO  eu.europa.esig.dss.xades.validation.XAdESSignature - Determining signing certificate from certificate candidates list succeeded : C-FECD081C53D9046984D2DA263EE262056690D0402B788EBE2A6BE411A1A2FB94
+2020-07-23 22:41:11.191 [pool-2-thread-18] INFO  eu.europa.esig.dss.xades.validation.XAdESCertificateSource - +XAdESCertificateSource
+2020-07-23 22:41:11.284 [pool-2-thread-11] INFO  eu.europa.esig.dss.validation.SignedDocumentValidator - Document validation...
+2020-07-23 22:41:11.303 [pool-2-thread-11] INFO  eu.europa.esig.dss.validation.CommonCertificateVerifier - + New CommonCertificateVerifier created.
+2020-07-23 22:41:11.348 [pool-2-thread-18] INFO  eu.europa.esig.dss.xades.validation.XAdESSignature - Determining signing certificate from certificate candidates list succeeded : C-EA36A885390D3F64F8B32040A46C2239FDC0971520815917893A004AAEE658CC
+2020-07-23 22:41:11.438 [pool-2-thread-21] INFO  eu.europa.esig.dss.validation.CommonCertificateVerifier - + New CommonCertificateVerifier created.
+2020-07-23 22:41:11.468 [pool-2-thread-31] INFO  eu.europa.esig.dss.xades.validation.XAdESSignature - Determining signing certificate from certificate candidates list succeeded : C-83EA6F10CCB86B334B4B560C3B83E1795646135B06612F978CE7DE33243F5FC7
+2020-07-23 22:41:11.531 [pool-2-thread-21] INFO  eu.europa.esig.dss.validation.SignedDocumentValidator - Document validation...

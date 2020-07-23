@@ -1,0 +1,1 @@
+2020-07-23 23:02:06.701 [pool-2-thread-7] ERROR eu.europa.esig.dss.tsl.runnable.AbstractAnalysis - Unable to process GET call for url [https://www.digst.dk/TSLDKxml]. Reason : [Not acceptable HTTP Status (HTTP status code : 503 / reason : Service Unavailable)]
